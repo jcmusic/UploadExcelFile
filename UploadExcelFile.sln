@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UploadExcelFile", "API\UploadExcelFile.csproj", "{4D582B97-DC3B-41D8-A0D8-C2BDF5263CBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{9153BE0C-6CF8-465E-BAF4-5894554B735C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestFiles", "TestFiles", "{971A17FB-725C-41B5-9802-BABD955B3304}"
+	ProjectSection(SolutionItems) = preProject
+		TestFiles\TestExcelOrderUpload - BadData.xlsx = TestFiles\TestExcelOrderUpload - BadData.xlsx
+		TestFiles\TestExcelOrderUpload.xlsx = TestFiles\TestExcelOrderUpload.xlsx
+		TestFiles\TestExcelOrderUpload_Unordered.xlsx = TestFiles\TestExcelOrderUpload_Unordered.xlsx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D582B97-DC3B-41D8-A0D8-C2BDF5263CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D582B97-DC3B-41D8-A0D8-C2BDF5263CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D582B97-DC3B-41D8-A0D8-C2BDF5263CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D582B97-DC3B-41D8-A0D8-C2BDF5263CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9153BE0C-6CF8-465E-BAF4-5894554B735C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9153BE0C-6CF8-465E-BAF4-5894554B735C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9153BE0C-6CF8-465E-BAF4-5894554B735C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9153BE0C-6CF8-465E-BAF4-5894554B735C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8587F03-E2C0-4998-B3D7-BF7C201F1E49}
+	EndGlobalSection
+EndGlobal
